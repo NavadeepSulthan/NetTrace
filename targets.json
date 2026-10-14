@@ -1,0 +1,15 @@
+[
+  {
+    "url": "https://www.google.com",
+    "latency_threshold_ms": 350.0
+  },
+  {
+    "url": "https://www.cloudflare.com",
+    "latency_threshold_ms": 300.0
+  },
+  {
+    "url": "https://httpstat.us/503",
+    "latency_threshold_ms": 500.0,
+    "acceptable_status_ranges": [[200, 399]]
+  }
+]
